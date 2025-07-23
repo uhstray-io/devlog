@@ -1,2 +1,6 @@
+github.com/canstand/compost v0.8.0 h1:UZQCppjQ4SujAJ8zIbs6AwIxYj034AowJ3KA6Dqi3Kw=
+github.com/canstand/compost v0.8.0/go.mod h1:FRwAiyntyMBfL0CSYGdPo88AbEtIv1yI6bVUWZmiQFE=
 github.com/joeroe/risotto v0.4.0 h1:j1Hqnr/wWuKjDGPwKhpOs0yH0L+X6kLLgObxH4APUO8=
 github.com/joeroe/risotto v0.4.0/go.mod h1:50XvgDGSY2RDbp86FP3nWCnUrJgVQAm9uWsWPstFd54=
+github.com/joeroe/risotto v0.4.1-0.20250512125014-487683ea8f31 h1:rsLoar2UsMlumq32YLv6tRM3qBgaFHC1C7n4JsPxcjg=
+github.com/joeroe/risotto v0.4.1-0.20250512125014-487683ea8f31/go.mod h1:50XvgDGSY2RDbp86FP3nWCnUrJgVQAm9uWsWPstFd54=

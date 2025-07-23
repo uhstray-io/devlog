@@ -1,20 +1,17 @@
-baseURL = 'https://devlog.uhstray.io/'
-languageCode = 'en-us'
-title = 'Uhstray Devlog'
-author = ["Joe Wisneski", "Jacob Haig"]
-
-copyright = "© [Uhstray.io](https://uhstray.io) & [Uhstray.io contributors](https://github.com/uhstray-io/)."
-
+baseURL = "https://risotto.joeroe.io"
+theme = "risotto"
+title = "risotto demo"
+author = "Joe Roe"
+copyright = "© [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors)."
+languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
-
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
-[module]
-[[module.imports]]
-path = 'github.com/joeroe/risotto'
-
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
 
 [pagination]
 pagerSize = 3
@@ -25,13 +22,19 @@ noindex = false
 [params.theme]
 palette = "base16-dark"
 
-
-# Sidebar: social links
+# Sidebar: about/bio
 [params.about]
 title = "risotto"
 description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
 # unicode/emoji logo:
 logo = "🍚"
+# or use an image:
+#logo_image = "images/rice.svg"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
@@ -48,7 +51,6 @@ icon = "ai ai-orcid"
 title = "ORCID"
 url = "https://orcid.org/0000-0001-2345-6789"
 
-
 [menu]
 
 [[menu.main]]
@@ -57,17 +59,10 @@ name = "About"
 url = "/about/"
 weight = 10
 
-[[menu.main]]
-identifier = "Logs"
-name = "Logs"
-url = "/logs/"
-weight = 10
-
 [taxonomies]
 category = "categories"
 tag = "tags"
 series = "series"
-
 
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
@@ -84,18 +79,18 @@ ordered = true
 
 [privacy]
 
-# [privacy.vimeo]
-# disabled = false
-# simple = true
+[privacy.vimeo]
+disabled = false
+simple = true
 
-# [privacy.twitter]
-# disabled = false
-# enableDNT = true
-# simple = true
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
 
-# [privacy.instagram]
-# disabled = false
-# simple = true
+[privacy.instagram]
+disabled = false
+simple = true
 
 [privacy.youtube]
 disabled = false
@@ -106,10 +101,5 @@ privacyEnhanced = true
 [services.instagram]
 disableInlineCSS = true
 
-# [services.twitter]
-# disableInlineCSS = true
-
-
-timeout = 30000
-enableInlineShortcodes = true
-
+[services.twitter]
+disableInlineCSS = true
