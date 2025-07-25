@@ -1,25 +1,31 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+description = "Uhstray.io is a worker-owned, not-for-profit organization focused on building open-source, private cloud solutions for small businesses and startups."
+date = "2025-07-18"
+aliases = ["about", "about-uhstrayio", "contact"]
+author = "Uhstray.io Team"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## 🙋‍♀️ What is [Uhstray.io](https://www.uhstray.io/)?
 
-Hugo makes use of a variety of open source projects including:
+Uhstray.io, LLC | Worker Owned | Not For Profit is organized for development, educational, and scientific purposes.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+- We’re building business-as-code! A Secure and AI driven private cloud business solution, that let’s you own and curate your own data, especially designed to accelerate small business and startups!
+- If you want to follow the project check out the business-as-code [Github repository](https://www.github.com/uhstray-io/business-as-code). We’re looking for contributors and members to our general council.
+- If you’d like to meet our team, join our community, or get involved in any of our [projects](https://www.uhstray.io/en/projects) join our [Discord](https://discord.uhstray.io/)!
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Our goal is to **To provide education, intelligence, and autonomy to everyone and every home.**
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+Our mission: Enable everyone to own their own IT data & hardware to create open-source products, services, and programs.
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+## 👩‍💻 Useful resources -  Resources
+- [Join our Discord!](https://discord.uhstray.io/)
+- [See docs from our latest work](https://www.uhstray.io/docs)
+- [Check out our projects](https://www.uhstray.io/projects)
+- [See our community resources](https://www.uhstray.io/community)
+- [Understand our Organizations approach and Philoshopy](https://www.uhstray.io/our-philosophy)
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+## 🌈 Contribution guidelines
+- [Read our Code of Conduct before getting started.](https://www.uhstray.io/code-of-conduct)
+- [Learn how to Contribute to our projects!](https://www.uhstray.io/contributing)
+  
