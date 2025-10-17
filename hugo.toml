@@ -1,29 +1,44 @@
 baseURL = 'https://devlog.uhstray.io/'
-languageCode = 'en-us'
+theme = "hugo-bearcub"
 title = 'Uhstray'
 author = ["Joe Wisneski", "Jacob Haig"]
+copyright = "© Uhstray.io"
 
-copyright = "© [Uhstray.io](https://uhstray.io)"
+description = "Bear Cub Demo"
 
+languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 ignoreErrors = ["error-remote-getjson"]
 
-[module]
-[[module.imports]]
-path = 'github.com/joeroe/risotto'
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[languages]
+  [languages.en]
+    title = "Bear Cub"
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
+
+# [module]
+# [[module.imports]]
+# path = 'github.com/joeroe/risotto'
 
 
 [pagination]
 pagerSize = 3 # This is the number of items to display per page
 
+
+# params.noindex = false # This is for search engines, set to true to disable indexing
 [params]
 noindex = false # This is for search engines, set to true to disable indexing
-
-[params.theme]
-palette = "tokyo-night-dark"
+theme.palette = "tokyo-night-dark"
 
 
 # Sidebar: social links
@@ -48,8 +63,6 @@ icon = "ai ai-orcid"
 title = "ORCID"
 url = "https://orcid.org/0000-0001-2345-6789"
 
-
-[menu]
 
 [[menu.main]]
 identifier = "about"
@@ -83,7 +96,6 @@ series = "series"
 unsafe = true
 
 [markup]
-
 # Table of contents
 # Add toc = true to content front matter to enable
 [markup.tableOfContents]
