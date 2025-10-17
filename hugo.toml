@@ -1,9 +1,9 @@
 baseURL = 'https://devlog.uhstray.io/'
 languageCode = 'en-us'
-title = 'Uhstray Devlog'
+title = 'Uhstray'
 author = ["Joe Wisneski", "Jacob Haig"]
 
-copyright = "© [Uhstray.io](https://uhstray.io) & [Uhstray.io contributors](https://github.com/uhstray-io/)."
+copyright = "© [Uhstray.io](https://uhstray.io)"
 
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -17,21 +17,21 @@ path = 'github.com/joeroe/risotto'
 
 
 [pagination]
-pagerSize = 3
+pagerSize = 3 # This is the number of items to display per page
 
 [params]
-noindex = false
+noindex = false # This is for search engines, set to true to disable indexing
 
 [params.theme]
-palette = "base16-dark"
+palette = "tokyo-night-dark"
 
 
 # Sidebar: social links
 [params.about]
-title = "devlog"
-description = "[Uhstray.io](https://www.uhstray.io/) devlog for our latest updates."
+title = "Uhstray.io devlog"
+description = "Check out [Uhstray.io](https://www.uhstray.io/)'s blog and devlog for our latest updates."
 # unicode/emoji logo:
-logo = "🍚"
+logo = "📝"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
@@ -58,11 +58,20 @@ url = "/about/"
 weight = 10
 
 [[menu.main]]
-identifier = "Logs"
-name = "Logs"
-url = "/logs/"
+identifier = "Blogs"
+name = "Blogs"
+url = "/blogs/"
 weight = 10
 
+[[menu.main]]
+identifier = "Dev logs"
+name = "Dev logs"
+url = "/devlogs/"
+weight = 10
+
+
+
+# Taxonomies are like categories and tags. They help to classify content.
 [taxonomies]
 category = "categories"
 tag = "tags"
