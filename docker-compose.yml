@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  hugo:
+    build: .
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+      - /src/public
+    environment:
+      - HUGO_WATCH=true
+    command: hugo server --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313 --buildDrafts --buildFuture --watch
+    restart: unless-stopped
+
+  # Optional: Production build service
+  hugo-build:
+    build: .
+    volumes:
+      - .:/src
+      - ./public:/src/public
+    command: hugo --minify
+    profiles:
+      - build
