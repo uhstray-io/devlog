@@ -25,3 +25,14 @@ hugo server
 ```bash
 hugo server -D
 ```
+
+
+## Deploy with docker
+```bash
+docker compose up -d --build
+```
+
+## Docker Compose Down
+```bash
+docker compose down
+```

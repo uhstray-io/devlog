@@ -17,13 +17,13 @@ ignoreErrors = ["error-remote-getjson"]
 sectionPagesMenu = "main"
 
 [languages]
-  [languages.en]
-    title = "Bear Cub"
-    languageName = "en-US 🇺🇸"
-    LanguageCode = "en-US"
-    contentDir = "content"
-    [languages.en.params]
-      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+[languages.en]
+title = "Uhstray Devlog"
+languageName = "en-US 🇺🇸"
+LanguageCode = "en-US"
+contentDir = "content"
+[languages.en.params]
+madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 
 # [module]
@@ -38,7 +38,6 @@ pagerSize = 3 # This is the number of items to display per page
 # params.noindex = false # This is for search engines, set to true to disable indexing
 [params]
 noindex = false # This is for search engines, set to true to disable indexing
-theme.palette = "tokyo-night-dark"
 
 
 # Sidebar: social links
@@ -70,18 +69,17 @@ name = "About"
 url = "/about/"
 weight = 10
 
-[[menu.main]]
-identifier = "Blogs"
-name = "Blogs"
-url = "/blogs/"
-weight = 10
+# [[menu.main]]
+# identifier = "Blogs"
+# name = "Blogs"
+# url = "/blogs/"
+# weight = 10
 
 [[menu.main]]
-identifier = "Dev logs"
-name = "Dev logs"
-url = "/devlogs/"
+identifier = "Uhstray Home"
+name = "Uhstray Home"
+url = "http://uhstray.io/"
 weight = 10
-
 
 
 # Taxonomies are like categories and tags. They help to classify content.
@@ -133,4 +131,3 @@ disableInlineCSS = true
 
 timeout = 30000
 enableInlineShortcodes = true
-
