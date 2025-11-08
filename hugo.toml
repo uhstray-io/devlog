@@ -43,7 +43,7 @@ noindex = false # This is for search engines, set to true to disable indexing
 # Sidebar: social links
 [params.about]
 title = "Uhstray.io devlog"
-description = "Check out [Uhstray.io](https://www.uhstray.io/)'s blog and devlog for our latest updates."
+description = "Check out [Uhstray.io](https://www.uhstray.io/)'s devlog for our latest updates."
 # unicode/emoji logo:
 logo = "📝"
 
@@ -69,11 +69,6 @@ name = "About"
 url = "/about/"
 weight = 10
 
-# [[menu.main]]
-# identifier = "Blogs"
-# name = "Blogs"
-# url = "/blogs/"
-# weight = 10
 
 [[menu.main]]
 identifier = "Uhstray Home"
