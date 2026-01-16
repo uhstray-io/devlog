@@ -1,0 +1,23 @@
+
+Large Language Models
+    vLLM vs Ollama
+    local LLM deployment
+    "AI for developers" (versus "AI for everyone")
+
+Systems programming guide
+    Programming language values
+    Rust as a systems programming language
+    Can Rust compete for the frontend?
+        Or "How does Rust do on the Front end?"
+
+DataScience MachineLearning DeepLearning
+    NaturalLanguage Concepts - Tokenization, Embeddings
+        And the interesting things you can do with them
+        Such as semantic search, text classification, and Visualizations.
+
+
+
+Projects we are working on 
+    Teddy - A Dataframe library in zig.
+    Ferret - A lcoal search engine with NaturalLanguage semantic search.
+    ??? - Multi speaker transcription tool for audio and video editing.
