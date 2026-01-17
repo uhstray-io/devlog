@@ -19,7 +19,7 @@ AI tools are only ever supplementary and can not replace the human touch in cont
 If you have questions about our AI policy or content creation process, feel free to reach out.
 
 
-## Disclosure Policy for Development 
+## Disclosure Policy for Development !!!!
 
 When it comes to project development, AI tools are in limited use for tasks such as autocomplete suggestions, code review, bug detection, and performance optimization. These tools assist developers in identifying potential issues and improving code quality, but they do not replace the expertise and judgment of human developers.
 

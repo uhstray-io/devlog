@@ -16,8 +16,8 @@ DataScience MachineLearning DeepLearning
         Such as semantic search, text classification, and Visualizations.
 
 
-
 Projects we are working on 
     Teddy - A Dataframe library in zig.
-    Ferret - A lcoal search engine with NaturalLanguage semantic search.
+    Ferret - A local search engine with NaturalLanguage semantic search.
     ??? - Multi speaker transcription tool for audio and video editing.
+    Stonks - Stock market predictive modeling tool.
