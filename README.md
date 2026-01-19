@@ -17,8 +17,16 @@ hugo mod get github.com/joeroe/risotto
 
 # Run it 
 ## Production
+
+Download the static-web-server
 ```bash
-hugo server
+./get_sws.sh
+```
+
+It is recommended running the build and serve scripts separately after each git pull.
+```bash
+./build.sh
+./serve.sh
 ```
 
 ## Development
