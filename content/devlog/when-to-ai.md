@@ -1,6 +1,6 @@
 +++
 date = '2026-01-16T15:56:56-05:00'
-draft = false
+draft = true
 title = 'When to AI' 
 tags = ['ai']
 +++
