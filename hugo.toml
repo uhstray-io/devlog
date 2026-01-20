@@ -4,7 +4,7 @@ title = 'Uhstray'
 author = ["Joe Wisneski", "Jacob Haig"]
 copyright = "© Uhstray.io"
 
-description = "Bear Cub Demo"
+description = "Uhstray.io's development blog."
 
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -32,7 +32,7 @@ madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 
 [pagination]
-pagerSize = 3 # This is the number of items to display per page
+pagerSize = 4 # This is the number of items to display per page
 
 
 # params.noindex = false # This is for search engines, set to true to disable indexing
@@ -46,6 +46,7 @@ title = "Uhstray.io devlog"
 description = "Check out [Uhstray.io](https://www.uhstray.io/)'s devlog for our latest updates."
 # unicode/emoji logo:
 logo = "📝"
+
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
@@ -63,12 +64,20 @@ title = "ORCID"
 url = "https://orcid.org/0000-0001-2345-6789"
 
 
+
+
+# Menu items
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 10
-
+weight = 2
 
 [[menu.main]]
 identifier = "Uhstray Home"
