@@ -19,4 +19,11 @@ else
 	IP_ADDRESS="127.0.0.1"
 fi
 
-./static-web-server --host "$IP_ADDRESS" --port 8000 -d ./public --log-level info --log-with-ansi true --log-remote-address true
+
+
+if [[ "$(uname -s)" == "Linux" ]]; then
+    static-web-server --host "$IP_ADDRESS" --port 8000 -d ./public --log-level info --log-with-ansi true --log-remote-address true
+else
+    # Assume Windows and use local static-web-server.exe
+    ./static-web-server.exe --host "$IP_ADDRESS" --port 8000 -d ./public --log-level info --log-with-ansi true --log-remote-address true
+fi
