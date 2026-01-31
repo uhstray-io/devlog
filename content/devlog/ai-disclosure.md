@@ -1,5 +1,5 @@
 +++
-date = '2026-01-16T15:55:56-05:00'
+date = '2026-01-31T12:00:56-05:00'
 draft = false
 title = 'Devlog AI Disclosure'
 tags = ['devlog','ai','site']
