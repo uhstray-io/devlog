@@ -61,7 +61,7 @@ Consider the contrast between **Python** and **Rust**:
 
 - **Rust's** values of safety and robustness mean a steeper learning curve and longer compile times, but the compiler catches entire classes of bugs before the code ever runs.
 
-Neither approach is wrong. The question is: *what does your project need?* A weekend hackathon project has different requirements than flight control software. Your startup company has different needs compared to a bank processing financial transaction system.
+Neither approach is wrong. The question is: *what does your project need?* A weekend hackathon project has different requirements than flight control software. Your startup company has different needs compared to a bank processing financial transactions.
 
 > The mistake is not in choosing one set of values over another. The mistake is in not recognizing that you are making a choice at all.
 
@@ -75,7 +75,7 @@ Languages are not static. As communities grow and leadership changes, so do the 
 
 **Python's** transition from Python 2 to Python 3 revealed a value shift toward consistency and correctness, even at the cost of breaking compatibility. The years-long migration pain was a direct consequence of the community deciding that long-term maintainability mattered more than short-term convenience.
 
-Any widely used programming language's values will evolve given enough time. And that is why it is important to pick a language whose current values align as close as possible with your own.
+Any widely used programming language's values will evolve given enough time. And that is why it is important to pick a language whose current values align as closely as possible with your own.
 
 ---
 
