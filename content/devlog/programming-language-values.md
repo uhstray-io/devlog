@@ -53,11 +53,11 @@ And here are some of the values associated with popular programming languages. T
 # Real-World Consequences
 ## And choosing the right ones
 
-The values embedded in a programming language have real consequences for the software we build. When a language prioritizes performance over safety, we see this play out in buffer overflows and memory corruption bugs that have plagued C and C++ codebases for decades. When a language prioritizes approachability over rigor, we get flexible systems that can be quick to prototype but difficult to maintain at scale.
+The values embedded in a programming language have real consequences for the software we build. When a language prioritizes performance over safety, we see this play out in memory safetyissues like buffer overflows and memory corruption bugs that have plagued C and C++ codebases for decades. When a languages prioritizes approachability over rigor, we get flexible systems that can be quick to prototype but might be difficult to maintain at scale.
 
 Consider the contrast between Python and Rust. Python's values of approachability and expressiveness make it an excellent choice for scripting, data analysis, and rapid prototyping. But those same values mean that type errors and runtime exceptions are discovered late, often in production. Rust's values of safety and robustness mean a steeper learning curve and longer compile times, but the compiler catches entire classes of bugs before the code ever runs.
 
-Neither approach is wrong. The question is: what does your project need? A weekend hackathon project has different requirements than flight control software. A startup exploring product-market fit has different needs than a bank processing financial transactions.
+Neither approach is wrong. The question is: what does your project need? A weekend hackathon project has different requirements than flight control software. Your startup company has different needs compared to a bank processing financial transaction system.
 
 The mistake is not in choosing one set of values over another. The mistake is in not recognizing that you are making a choice at all.
 
@@ -68,19 +68,22 @@ The mistake is not in choosing one set of values over another. The mistake is in
 
 Languages are not static. As communities grow and leadership changes, so do the values that guide a language's development. This can be a source of tension.
 
-JavaScript is perhaps the most dramatic example. What started as a hastily-designed scripting language for web browsers has evolved into a sprawling ecosystem with TypeScript adding static typing, frameworks enforcing functional patterns, and tooling that rivals compiled languages. The community's values shifted from "just make it work" to "make it maintainable at scale."
+JavaScript is perhaps the most dramatic example. What started as a hastily designed scripting language for web browsers has evolved into a sprawling ecosystem with TypeScript adding static typing, and tooling that competes with compiled languages. The community's values shifted from "just make it work" and to "make it maintainable at scale." Not to say that this shift was without its growing pains, but it showscases how a language's values and priorities evolve over time.
+
+
 
 Python's transition from Python 2 to Python 3 revealed a value shift toward consistency and correctness, even at the cost of breaking compatibility. The years-long migration pain was a direct consequence of the community deciding that long-term maintainability mattered more than short-term convenience.
 
-When a language's values evolve away from your own, you face a choice: adapt, advocate for change, or find a language whose values better align with yours. There is no shame in any of these paths.
+Any widely used programming language's values will evolve own given enough time.  And that is why it is important to pick a language whose current values align as close as possible with your own. 
 
 # My Personal Values
 
-My values are centered around performance, safety, robustness, and simplicity. These aren't arbitrary preferences. They come from years of debugging production systems, chasing down memory leaks, and maintaining code that outlived its original authors.
+My values are centered around performance, safety, robustness, and simplicity. These come from years of debugging production systems, chasing down broken packages, building robust systems, and maintaining code that will outlive me. 
 
+## Why These Values Matter to Me
 Performance matters because users notice latency. Safety matters because bugs in production cost time, money, and trust. Robustness matters because systems fail, and when they do, they should fail gracefully. Simplicity matters because code is read far more often than it is written, and complexity is the enemy of understanding.
 
-This is why I find myself drawn to languages like Zig and Rust. They take these values seriously, embedding them into the language itself rather than leaving them as optional best practices.
+This is why I find myself drawn to languages like Zig and Rust and Go. They take these values seriously, embedding them into the language itself rather than leaving them as optional best practices.
 
 
 
