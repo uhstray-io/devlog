@@ -13,8 +13,9 @@ A programming language is more then just a set of keywords and syntax. A languag
 
 Every language has values them wheither they are stated or not. Sometimes these values change over time as the community and core team change. When choosing a language, it is important to understand what those values are and how they align with your own values as a developer. 
 
+Historically, older programming languages were created out of necessity, not values. It was only later that communities formed around these languages and began to shape their values. And that is why choosing the right programming language is so important. When we are choosing a language, we are choosing a set of values that will shape our development experience and the software we create. 
 
-Personally, for me, my values are centered around performance, safety, robustness, and simplicity. Brian Cantril has a great talk on this topic. In his slide, he list out some of the core values of different programming languages.
+# Value Conflicts & Tradeoffs
 
 Here is a table of some of the Values discussed in his talk:
 
@@ -49,11 +50,21 @@ And here are some of the values associated with popular programming languages. T
 
 
 
-## And why they matter
-### And choosing the right ones
+# Real-World Consequences
+## And choosing the right ones
 
 
-Historically, older programming languages were created out of necessity, not values. It was only later that communities formed around these languages and began to shape their values. And that is why choosing the right programming language is so important. When we are choosing a language, we are choosing a set of values that will shape our development experience and the software we create. 
+
+
+# When Values Evolve
+
+# My Personal Values 
+Personally, for me, my values are centered around performance, safety, robustness, and simplicity. Brian Cantril has a great talk on this topic. In his slide, he list out some of the core values of different programming languages.
+
+
+
+
+
 
 
 
