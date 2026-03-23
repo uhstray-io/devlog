@@ -5,6 +5,13 @@ Uhstray.io Devlog Updates
 # Install Go!
 You can download Go from the [official Go website](https://go.dev/dl/).
 
+# Clone the repository
+```bash
+git clone --recursive https://github.com/uhstray-io/devlog
+cd devlog
+```
+
+
 # Install Hugo!
 ```bash
 go install github.com/gohugoio/hugo@latest
